@@ -1,0 +1,54 @@
+@media(max-width:700px){
+   .container{
+      width: 90%;
+      max-width: 1370px;
+      margin: auto;
+   }
+}
+
+@media(max-width:600px){
+   .burger{
+      display: block;
+      position: absolute;
+      top: 0.4rem;
+      right: 2.5rem;
+      cursor: pointer;
+   }
+
+   .nav-links{
+      position: absolute;
+      top: 100%;
+      right: -50%;
+      width: 50%;
+      background-color: $primary-color;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;      
+      transition: all 0.5s ease-in;
+      opacity: 0.9;
+
+      a{
+         color: white;
+         display: block;
+         margin: 2rem;
+         font-size: 1rem;
+         transition: all 0.5s ease;
+      }
+   }
+
+   .show-links{
+      position: absolute;
+      top: 2.9rem;
+      right: 0%;
+      width: 50%;
+      background-color: $primary-color;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      transition: all 0.5s ease;
+   }
+}
