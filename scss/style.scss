@@ -61,11 +61,27 @@ section{
    width: 2.3rem;
    height: 0.12rem;
    margin: 0.5rem 0;
+   transition: all ease 0.5s;
 }
 
 .burger{
    display: none;
 }
+
+.toggle .line-1{
+   transform: rotate(-45deg) translate(-5px,9px);
+   width: 2rem;
+}
+
+.toggle .line-2{
+   opacity: 0;
+}
+
+.toggle .line-3{
+   transform: rotate(45deg) translate(-5px ,-10px);
+   width: 2rem;
+}
+
 
 
 @import 'mobile';

@@ -9,4 +9,5 @@ burger.addEventListener('click', burgerClicked);
 function burgerClicked(e){
    e.preventDefault();
    navLinks.classList.toggle('show-links');
+   burger.classList.toggle('toggle');
 }
